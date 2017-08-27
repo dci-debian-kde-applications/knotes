@@ -58,8 +58,16 @@ Depends: kdepim-runtime,
          libkf5akonadisearch-plugins,
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: kdepim-doc (<< 4:16.12.0), knode (<< 4:4.14.5), ${kde-l10n:all}
-Replaces: kdepim-doc (<< 4:16.12.0), knode (<< 4:4.14.5), ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        kdepim-doc (<< 4:16.12.0),
+        knode (<< 4:4.14.5),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          kdepim-doc (<< 4:16.12.0),
+          knode (<< 4:4.14.5),
+          ${kde-l10n:all},
 Description: sticky notes application
  KNotes is a program that lets you write sticky notes. The notes are saved
  automatically when you exit the program, and they display when you open the
