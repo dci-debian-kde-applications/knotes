@@ -1,1 +1,1 @@
-knotes: package-name-doesnt-match-sonames libknotesprivate5
+knotes: package-name-doesnt-match-sonames libknotesprivate5 libnotesharedprivate5
