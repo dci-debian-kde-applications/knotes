@@ -54,7 +54,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/knotes.git
 
 Package: knotes
 Architecture: any
-Depends: kdepim-runtime,
+Depends: kdepim-runtime [amd64 arm64 armhf i386 mipsel],
          libkf5akonadisearch-bin,
          libkf5akonadisearch-plugins,
          ${misc:Depends},

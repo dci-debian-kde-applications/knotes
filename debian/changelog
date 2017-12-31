@@ -1,5 +1,8 @@
 knotes (4:17.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Since kdepim-runtime is available only on few architectures (due to
+    QtWebEngine), limit the dependency on it to amd64 arm64 armhf i386 mipsel.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Dec 2017 12:40:33 +0100
 
